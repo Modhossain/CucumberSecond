@@ -22,7 +22,7 @@ public class AllBrowser {
 			web=new FirefoxDriver();
 		}
 		web.get("https://www.osaconsultingtech.com/");
-		web.manage().window().maximize();
+		web.manage().window().fullscreen();
 		return web;
 		
 	}
